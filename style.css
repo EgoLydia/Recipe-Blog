@@ -304,7 +304,7 @@ body {
   .instructions {
     width: 587px;
     height: 64px;
-    top: 85rem;
+    top: 95rem;
     left: 1rem;
     position: absolute;
   }
@@ -366,7 +366,8 @@ body {
     background-color: black;
     color: white;
     text-align: center;
-    margin-top: 190rem;
+    margin-top: 200rem;
     padding: 4rem;
+    width: 100%;
   }
 }
