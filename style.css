@@ -19,13 +19,22 @@ span{
     fill: #F2994A;
 }
 
+.dots{
+    display: flex;
+}
+
+
+
 @media (min-width: 1025px) {
-.container{
-  padding-left: 256px;
-  padding-right: 256px;
+    .container{
+        padding-left: 256px;
+        padding-right: 256px;
     }
     .section-wrapper{
         display: flex;
+    }
+    .dot1{
+        padding-bottom: 5rem;
     }
     
   h1 {
@@ -42,7 +51,7 @@ span{
     font-family: Playfair Display;
     font-style: italic;
     font-weight: 500;
-    margin-left: 2rem;
+    margin-top: 0.3rem;
   }
 
   .background-img {
@@ -204,7 +213,10 @@ span{
         display: flex;
         flex-direction: column-reverse;
     }
-    
+    .dot1{
+        padding-bottom: 1.5rem;
+    }
+       
   h1 {
     font-family: Playfair Display;
     font-style: normal;
@@ -217,7 +229,6 @@ span{
     font-weight: 500;
     font-size: 12px;
     line-height: 15px;
-    padding-left: 1rem;
     margin-top: 0.5rem;
   }
 
