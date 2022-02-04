@@ -180,12 +180,14 @@ span{
     font-size: 24px;
     color: #ffffff;
   }
-
+.source-text{
+    margin-top: 5rem;
+}
   footer {
     background-color: black;
     color: white;
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 7rem;
     padding: 4rem;
   }
 }
