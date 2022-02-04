@@ -161,6 +161,7 @@ span{
     background-color: orange;
     border-radius: 6px;
     padding: 20px;
+    color: white;
   }
 
   .instruction-list {
@@ -295,6 +296,7 @@ span{
     background-color: orange;
     border-radius: 6px;
     padding: 0.65rem;
+    color: white;
   }
 
   .instruction-list {
