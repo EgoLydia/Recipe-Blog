@@ -11,38 +11,38 @@ body {
   font-size: 10px;
 }
 
-span{
-    color: #F2994A;
+span {
+  color: #f2994a;
 }
 
-.icon{
-    fill: #F2994A;
+.icon {
+  fill: #f2994a;
 }
 
-.dots{
-    display: flex;
+.dots {
+  display: flex;
 }
-
-
 
 @media (min-width: 1025px) {
-    .container{
-        padding-left: 256px;
-        padding-right: 256px;
-    }
-    .section-wrapper{
-        display: flex;
-    }
-    .dot1{
-        padding-bottom: 5rem;
-    }
-    
+  .container {
+    padding-left: 256px;
+    padding-right: 256px;
+  }
+
+  .section-wrapper {
+    display: flex;
+  }
+
   h1 {
     font-family: Playfair Display;
     font-style: normal;
     font-weight: bold;
     font-size: 50px;
     line-height: 64px;
+  }
+
+  .dot1 {
+    padding-bottom: 5rem;
   }
 
   .header-text {
@@ -70,8 +70,6 @@ span{
     margin-right: 10px;
     padding-top: 15px;
   }
-
-  
 
   .serving-bar {
     width: 300px;
@@ -105,11 +103,8 @@ span{
   }
 
   .ingredients {
-      margin-right: 3rem;
-      margin-top: 3rem;
-  }
-
-  .ingredient-classes {
+    margin-right: 3rem;
+    margin-top: 3rem;
   }
 
   .list {
@@ -117,8 +112,9 @@ span{
   }
 
   .ingredient-list {
-      margin-top: 0.5rem;
+    margin-top: 0.5rem;
   }
+
   h2 {
     font-family: Playfair Display;
     font-style: normal;
@@ -140,9 +136,6 @@ span{
     left: 237px;
     top: 829px;
     margin-right: 10px;
-  }
-
-  .instructions {
   }
 
   .instruction-title {
@@ -177,9 +170,6 @@ span{
     display: flex;
   }
 
-  .all-instruction {
-  }
-
   .numbers {
     width: 10px;
     height: 32px;
@@ -189,12 +179,12 @@ span{
     font-size: 24px;
     color: #ffffff;
   }
-.source-text{
+  .source-text {
     margin-top: 5rem;
-    font-weight:100;
+    font-weight: 100;
     font-style: italic;
+  }
 
-}
   footer {
     background-color: black;
     color: white;
@@ -205,24 +195,23 @@ span{
 }
 
 @media (max-width: 600px) {
-    .container{
-        padding-left: 11px;
-  padding-right: 11px;
-    }
-    .section-wrapper{
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .dot1{
-        padding-bottom: 1.5rem;
-    }
-       
+  .container {
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+
+  .section-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
   h1 {
     font-family: Playfair Display;
     font-style: normal;
     font-weight: bold;
     font-size: 1.2rem;
   }
+
   .header-text {
     font-family: Montserrat;
     font-style: italic;
@@ -232,6 +221,10 @@ span{
     margin-top: 0.5rem;
   }
 
+  .dot1 {
+    padding-bottom: 1.5rem;
+  }
+
   .background-img {
     width: 100%;
   }
@@ -239,44 +232,51 @@ span{
   .box-text1 {
     display: flex;
     line-height: 0.7rem;
-    
   }
+
   .box-text {
     display: flex;
     line-height: 0.7rem;
   }
+
   .all-box {
     display: flex;
     margin-top: 20px;
     justify-content: space-between;
   }
+
   .icon {
     padding-top: 10px;
     height: 20px;
     width: 20px;
     color: orange;
-    margin-right: 0.5rem
+    margin-right: 0.5rem;
   }
+
   .ri-time-line {
     margin-right: 10px;
     padding-top: 7px;
   }
-.serving-text1{
+
+  .serving-text1 {
     margin-top: 0.5rem;
-}
+  }
   .serving-bar {
     width: 100%;
   }
+
   .ingredients {
     margin-top: 1.5rem;
     line-height: normal;
     width: 100%;
   }
+
   h2 {
     font-family: Playfair Display;
     font-style: normal;
     font-weight: bold;
   }
+
   h3 {
     margin-top: 0.5rem;
     font-style: italic;
@@ -287,9 +287,6 @@ span{
     line-height: 1.5rem;
     margin-top: 1rem;
     font-size: 0.8rem;
-
-  }
-  .instructions {
   }
 
   .instruction-title {
@@ -317,14 +314,12 @@ span{
 
   .instruction-list {
     display: flex;
-
   }
 
   .all-instruction {
     margin-top: 5px;
     margin-left: 0;
     margin-right: 5rem;
-
   }
 
   .numbers {
@@ -334,18 +329,19 @@ span{
     color: #ffffff;
   }
 
+  .source-text {
+    margin-top: 4rem;
+    font-size: 0.75rem;
+    font-weight: 100;
+    font-style: italic;
+  }
+
   footer {
-      margin-top: 3rem;
+    margin-top: 3rem;
     background-color: black;
     color: white;
     text-align: center;
     padding: 4rem;
     font-size: 0.9rem;
   }
-  .source-text{
-    margin-top: 4rem;
-    font-size: 0.75rem;
-    font-weight:100;
-    font-style: italic;
-}
 }
