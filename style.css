@@ -182,6 +182,9 @@ span{
   }
 .source-text{
     margin-top: 5rem;
+    font-weight:100;
+    font-style: italic;
+
 }
   footer {
     background-color: black;
@@ -321,10 +324,17 @@ span{
   }
 
   footer {
-      margin-top: 2rem;
+      margin-top: 3rem;
     background-color: black;
     color: white;
     text-align: center;
     padding: 4rem;
+    font-size: 0.9rem;
   }
+  .source-text{
+    margin-top: 4rem;
+    font-size: 0.75rem;
+    font-weight:100;
+    font-style: italic;
+}
 }
