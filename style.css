@@ -27,6 +27,7 @@ span {
   .container {
     padding-left: 256px;
     padding-right: 256px;
+    margin-top: 2rem;
   }
 
   .section-wrapper {
@@ -37,7 +38,7 @@ span {
     font-family: Playfair Display;
     font-style: normal;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 2rem;
     line-height: 64px;
   }
 
@@ -142,7 +143,7 @@ span {
     font-family: Playfair Display;
     font-style: normal;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 1.5rem;
     margin-top: 1rem;
   }
 
@@ -198,6 +199,7 @@ span {
   .container {
     padding-left: 11px;
     padding-right: 11px;
+    margin-top: 2rem
   }
 
   .section-wrapper {
@@ -209,7 +211,7 @@ span {
     font-family: Playfair Display;
     font-style: normal;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 2rem;
   }
 
   .header-text {
@@ -275,6 +277,7 @@ span {
     font-family: Playfair Display;
     font-style: normal;
     font-weight: bold;
+    font-size: 1rem
   }
 
   h3 {
@@ -294,6 +297,7 @@ span {
     font-style: normal;
     font-weight: bold;
     margin-top: 1rem;
+    font-size: 1rem;
   }
 
   .instruction-text {
