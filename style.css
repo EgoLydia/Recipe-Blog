@@ -1,14 +1,16 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  padding-left: 11px;
+  padding-right: 11px;
 }
 .text1 {
   font-weight: 100;
-  font-size: 10px;
+  font-size: 5px;
 }
 
 .text2 {
   font-weight: 600;
-  font-size: 15px;
+  font-size: 10px;
 }
 
 span{
@@ -23,34 +25,25 @@ span{
   h1 {
     width: 587px;
     height: 64px;
-    left: 236px;
-    top: 49px;
     font-family: Playfair Display;
     font-style: normal;
     font-weight: bold;
     font-size: 50px;
     line-height: 64px;
-    position: absolute;
   }
 
   .header-text {
     width: 587px;
     height: 64px;
-    left: 270px;
-    top: 120px;
     font-family: Playfair Display;
     font-style: italic;
     font-weight: 500;
-    position: absolute;
   }
 
   .background-img {
-    position: absolute;
     width: 1100px;
     height: 600px;
     left: 234px;
-    top: 193px;
-    border-radius: 12px;
   }
 
   .icon {
@@ -67,9 +60,6 @@ span{
   }
 
   .ingredients {
-    position: absolute;
-    left: 234px;
-    top: 900px;
     display: flex;
   }
 
@@ -115,10 +105,8 @@ span{
     margin-top: 3px;
   }
   h2 {
-    position: absolute;
     width: 96px;
     height: 24px;
-    top: 2rem;
     margin-right: 20px;
     font-family: Playfair Display;
     font-style: normal;
@@ -128,7 +116,6 @@ span{
   }
 
   h3 {
-    position: absolute;
     width: 157px;
     font-family: Playfair Display;
     font-style: italic;
@@ -148,9 +135,6 @@ span{
   .instructions {
     width: 587px;
     height: 64px;
-    left: 236px;
-    top: 1400px;
-    position: absolute;
   }
 
   .instruction-title {
@@ -159,7 +143,6 @@ span{
     font-family: Playfair Display;
     font-style: normal;
     font-weight: bold;
-    position: absolute;
     font-size: 30px;
     line-height: 10px;
   }
@@ -192,14 +175,11 @@ span{
   .all-instruction {
     margin-top: 5px;
     margin-left: 0;
-    position: absolute;
   }
 
   .numbers {
     width: 10px;
     height: 32px;
-    left: 249px;
-    top: 60px;
     font-family: Playfair Display;
     font-style: normal;
     font-weight: bold;
@@ -218,49 +198,33 @@ span{
 
 @media (max-width: 600px) {
   h1 {
-    width: 587px;
-    height: 64px;
-    top: 49px;
     font-family: Playfair Display;
     font-style: normal;
     font-weight: bold;
-    font-size: 40px;
-    line-height: 64px;
-    position: absolute;
-    margin-left: 30px;
+    font-size: 1.2rem;
   }
   .header-text {
-    position: absolute;
-    width: 25rem;
-    height: 5.5rem;
-    margin-left: 40px;
-    top: 120px;
     font-family: Montserrat;
     font-style: italic;
     font-weight: 500;
     font-size: 12px;
     line-height: 15px;
+    padding-left: 1rem;
+    margin-top: 0.5rem;
   }
 
   .background-img {
-    position: absolute;
-    width: 500px;
-    height: 350px;
-    left: 30px;
-    top: 200px;
+    width: 100%;
   }
 
   .box-text1 {
     display: flex;
     line-height: 20px;
-    margin-left: 20px;
     size: 1rem;
-    margin-top: 600px;
   }
   .box-text {
     display: flex;
-    line-height: 20px;
-    margin-left: 30px;
+    line-height: 0.7rem;
   }
   .all-box {
     display: flex;
@@ -275,7 +239,6 @@ span{
     margin-right: 15px;
   }
   .ri-time-line {
-    font-size: 25px;
     margin-right: 10px;
     padding-top: 7px;
   }
@@ -284,9 +247,7 @@ span{
     width: 100%;
   }
   .ingredients {
-    position: absolute;
-    margin-top: 3rem;
-    margin-left: 30px;
+    margin-top: 1rem;
     line-height: normal;
     width: 100%;
   }
@@ -294,55 +255,42 @@ span{
     font-family: Playfair Display;
     font-style: normal;
     font-weight: bold;
-    font-size: 30px;
   }
   h3 {
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     font-style: italic;
-    font-weight: normal;
-    font-size: 16px;
+    font-size: 0.7rem;
   }
 
   .ingredient-list {
-    line-height: 30px;
+    line-height: 1.5rem;
     margin-top: 1rem;
-    margin-right: 5rem;
+    font-size: 0.8rem;
 
   }
   .instructions {
-    width: 587px;
-    height: 64px;
-    top: 95rem;
-    left: 1rem;
-    position: absolute;
   }
 
   .instruction-title {
     font-family: Playfair Display;
     font-style: normal;
     font-weight: bold;
-    position: absolute;
-    font-size: 30px;
-    line-height: 10px;
+    margin-top: 1rem;
   }
 
   .instruction-text {
-    line-height: 30px;
-    padding-top: 40px;
-    font-size: 20px;
-    margin-top: 30px;
+    line-height: 1.5rem;
+    margin-top: 1rem;
   }
 
   .num {
-    margin-top: 70px;
-    font-size: 20px;
+    margin-top: 1.2rem;
     font-style: italic;
     font-weight: 500;
     margin-right: 12px;
     background-color: orange;
     border-radius: 6px;
-    padding: 20px;
-    margin-left: 0;
+    padding: 0.65rem;
   }
 
   .instruction-list {
@@ -353,20 +301,14 @@ span{
   .all-instruction {
     margin-top: 5px;
     margin-left: 0;
-    position: absolute;
     margin-right: 5rem;
 
   }
 
   .numbers {
-    width: 10px;
-    height: 32px;
-    left: 249px;
-    top: 60px;
     font-family: Playfair Display;
     font-style: normal;
     font-weight: bold;
-    font-size: 24px;
     color: #ffffff;
   }
 
@@ -374,8 +316,6 @@ span{
     background-color: black;
     color: white;
     text-align: center;
-    margin-top: 200rem;
     padding: 4rem;
-    width: 100%;
   }
 }
