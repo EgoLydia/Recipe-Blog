@@ -11,6 +11,14 @@ body {
   font-size: 15px;
 }
 
+span{
+    color: #F2994A;
+}
+
+.icon{
+    fill: #F2994A;
+}
+
 @media (min-width: 1025px) {
   h1 {
     width: 587px;
